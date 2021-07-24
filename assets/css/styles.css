@@ -1,0 +1,395 @@
+.owl-item :hover {
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+  text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+}
+
+.nav-link.active.text-light {
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+@media (min-width: 300px) {
+  div {
+    height: initial;
+    display: block;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+}
+
+div {
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.bbb_viewed {
+  padding-top: 51px;
+  padding-bottom: 60px;
+}
+
+.bbb_main_container {
+}
+
+.bbb_viewed_title_container {
+  font-family: Cairo, sans-serif;
+  border-bottom: solid 1px #dadada;
+}
+
+.bbb_viewed_title {
+  margin-bottom: 16px;
+  margin-top: 8px;
+}
+
+.bbb_viewed_nav_container {
+  position: absolute;
+  right: -5px;
+  bottom: 14px;
+}
+
+.bbb_viewed_nav {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bbb_viewed_nav i {
+  color: #dadada;
+  font-size: 18px;
+  padding: 5px;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+.bbb_viewed_nav:hover i {
+  color: #606264;
+}
+
+.bbb_viewed_prev {
+}
+
+.bbb_viewed_slider_container {
+  padding-top: 13px;
+}
+
+.bbb_viewed_item {
+  width: 100%;
+  border-radius: 2px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.bbb_viewed_image {
+  width: 150px;
+  height: 150px;
+}
+
+.bbb_viewed_image img {
+  display: block;
+  max-width: 100%;
+}
+
+.bbb_viewed_content {
+  width: 100%;
+  margin-top: 25px;
+}
+
+.bbb_viewed_price {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.bbb_viewed_item.discount .bbb_viewed_price {
+  color: #df3b3b;
+}
+
+.bbb_viewed_price span {
+  position: relative;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.bbb_viewed_price span::after {
+  display: block;
+  position: absolute;
+  top: 6px;
+  left: -2px;
+  width: calc(100% + 4px);
+  height: 1px;
+  background: #8d8d8d;
+  content: '';
+}
+
+.bbb_viewed_name {
+  font-family: 'Tajawal';
+  margin-top: 3px;
+}
+
+.bbb_viewed_name a {
+  font-size: 14px;
+  color: #ffffff;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+.bbb_viewed_name a:hover {
+  color: #0e8ce4;
+}
+
+.item_marks {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+}
+
+.item_mark {
+  display: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  color: #FFFFFF;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: center;
+}
+
+.item_discount {
+  background: #df3b3b;
+}
+
+.item_new {
+  background: #0e8ce4;
+}
+
+.bbb_viewed_item.discount .item_discount {
+  display: inline-block;
+}
+
+.bbb_viewed_item.is_new .item_new {
+  display: inline-block;
+}
+
+.bg_color {
+  color: #606264;
+}
+
+.btn-group-sm .btn-fab {
+  position: fixed !important;
+  right: 29px;
+}
+
+.btn-group .btn-fab {
+  position: fixed !important;
+  right: 20px;
+}
+
+#main {
+  bottom: 20px;
+}
+
+#mail {
+  bottom: 80px;
+}
+
+#sms {
+  bottom: 125px;
+}
+
+#autre {
+  bottom: 170px;
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  z-index: 1;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.text-center.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.hide {
+  display: none;
+}
+
+.myDIV:hover + .hide {
+  display: block;
+  color: red;
+}
+
+.brhover :hover {
+  border-radius: 3px 3px;
+  color: black;
+}
+
+#first:hover {
+  color: black !important;
+  color: #ff7a59;
+  background: #fff;
+  -ms-transform: scale(1.1);
+}
+
+#second:hover {
+  color: black !important;
+  color: #ff7a59;
+  background: #fff;
+  -ms-transform: scale(1.1);
+}
+
+#three:hover {
+  color: black !important;
+  color: #ff7a59;
+  background: #fff;
+  -ms-transform: scale(1.1);
+}
+
+#four:hover {
+  color: black !important;
+  color: #ff7a59;
+  background: #fff;
+  -ms-transform: scale(1.1);
+}
+
+#five:hover {
+  color: black !important;
+  color: #ff7a59;
+  background: #fff;
+  -ms-transform: scale(1.1);
+}
+
+/*  */
+
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect .overlay {
+  position: absolute;
+  overflow: hidden;
+  width: 80%;
+  height: 80%;
+  left: 10%;
+  top: 10%;
+  border-bottom: 1px solid #FFF;
+  border-top: 1px solid #FFF;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0,1);
+  -ms-transform: scale(0,1);
+  transform: scale(0,1);
+}
+
+.hovereffect:hover .overlay {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+.hovereffect:hover img {
+  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.6" /><feFuncG type="linear" slope="0.6" /><feFuncB type="linear" slope="0.6" /></feComponentTransfer></filter></svg>#filter');
+  filter: brightness(0.6);
+  -webkit-filter: brightness(0.6);
+}
+
+.hovereffect h2 {
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  background-color: transparent;
+  padding: 1em 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,-100%,0);
+  transform: translate3d(0,-100%,0);
+}
+
+.hovereffect a, .hovereffect p {
+  color: #FFF;
+  padding: 1em 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,100%,0);
+  transform: translate3d(0,100%,0);
+}
+
+.hovereffect:hover a, .hovereffect:hover p, .hovereffect:hover h2 {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.nav1 {
+  text-decoration: underline;
+}
+
