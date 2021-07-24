@@ -385,3 +385,14 @@ a {
   /*margin-right: 259px;*/
 }
 
+.hero.up.about {
+  background-image: url("../../assets/img/business-people-stacking-their-hands_53876-90289.webp?h=7d39741e1f8db1e19dbffa9f3d03f204");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 10px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  display: flex;
+}
+
