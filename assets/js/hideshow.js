@@ -48,7 +48,7 @@
        $('.div2').hide(); 
       $('.div3').hide(); 
       $('.div1').hide(); 
-      $('.div5').hide(); 
+      $('.div4').hide(); 
   });
   // $('#five').on('click', function(){
   //    $('.div5').hide(); 
